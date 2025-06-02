@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>¡Feliz Cumpleaños!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <button id="surpriseBtn" class="surprise-btn">¡Haz clic para una sorpresa! 🎁</button>
+
+    <div class="container hidden">
+        <div class="birthday-card">
+            <h1 class="title">¡Feliz Cumpleaños! 🎉</h1>
+            <div class="cake">
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <button id="celebrateBtn" class="celebrate-btn">¡Celebrar! 🎂</button>
+        </div>
+    </div>
+
+    <div class="letter-container hidden">
+        <div class="letter">
+            <div class="letter-content">
+                <h2>¡Feliz Cumpleaños! 🎉</h2>
+                <p class="message">
+                    Primeramente felicitarte por este grandioso dia!!, te quiero mucho comadre que todos tus deseos se hagan realidad y que sigas siendo la persona increible que eres. Un abrazo enorme para tu, cuando vengas te doy un abrazoteeeeeeeeee, Muchas Felicidades y por cierto no me olvide jijijij
+                </p>
+                <p class="message">
+                    Atte: Tu Comadre Adan!! JAJA
+                </p>
+                <p class="message">
+                    Hecho con mucho cariño para ti! ;3
+                </p>
+                <ul class="wishes">
+                    <li>✨ Que todos tus sueños se hagan realidad</li>
+                    <li>🌟 Que encuentres felicidad en cada momento :D</li>
+                    <li>💫 Que la vida te sorprenda con cosas maravillosas uwu</li>
+                    <li>🎉 Que este año sea el mejor de tu vida :3</li>
+                </ul>
+                <p class="signature">Con mucho cariño,<br>Yo ps quien mas unu</p>
+            </div>
+        </div>
+    </div>
+
+    <audio id="birthdayMusic" loop>
+        <source src="music/juniomusica.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <canvas id="confetti"></canvas>
+    <script src="script.js"></script>
+</body>
+</html> 
